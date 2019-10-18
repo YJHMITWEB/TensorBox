@@ -1,5 +1,5 @@
 # TensorBox
-* A user-friendly API for advanced computer vision models *
+*A user-friendly API for advanced computer vision models*
 TensorBox provides well-build models in recognition and segmentation. All have been tested on corresponding datasets, such as ImageNet, Pascal VOC, Microsoft COCO, etc. To call well-built models and train/test, user only need to import its function, and writing less than 10 rows of code to get it running.
 
 Also, basic modules such as residual block, dilation convs block, reduction cell are available for direct calling, in case user wants to build their own networks. Note that, to make the model's file more stractified, each category level contains very small amount of code which mainly calls lower level's functions.
